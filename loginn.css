@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(251, 252, 253);
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.form{
+    width: 350px;
+    position: relative;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100,100,111,0.2) 0 7px 29px 0px;
+    border-radius: 8px;
+}
+
+
+.form-header{
+    border-radius: 8px 8px 0 0;
+    background-color: rgb(111, 119, 111);
+    padding: 10px;
+    text-align: center;
+}
+
+.form-body{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(244, 119, 236);
+    font-size: 18px;
+}
+
+.field{
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #c7c1c1;
+    outline: none;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+
+
+button{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(50, 128, 50);
+    color:white;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.forgot{
+    float: left;
+    color: rgb(248, 37, 37);
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'georgia', sans-serif;
+}
+
+.options{
+    padding: 0 10px;
+    margin: 15px 0 20px;
+
+}
+
+.form-footer{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
